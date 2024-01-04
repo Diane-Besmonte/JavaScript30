@@ -4,13 +4,42 @@
     box-sizing: border-box;
 }
 
+:root {
+    --base: #FFC600;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
 body {
-    background-color: #0F2167;
+    text-align: center;
+    background: #163020;
+    color: #FFF;
+    font-family: 'helvetica neue', sans-serif;
 }
 
 h1 {
     text-align: center;
-    color: #FFECD6;
+    color: #EEF0E5;
     margin: 50px 0;
     font-size: 2.5em;
 }
+
+span {
+    color: var(--base);
+}
+
+label {
+    padding: 5px;
+    color: #EEF0E5;
+}
+
+.controls {
+    padding: 30px 0px;
+}
+
+img {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
