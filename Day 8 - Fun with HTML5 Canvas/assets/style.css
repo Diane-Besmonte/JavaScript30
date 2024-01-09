@@ -1,0 +1,58 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1D5B79;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #F8FDCF;
+    margin: 25px 0;
+    font-size: 2.5em;
+}
+
+#colorChoice{
+    margin: 0px 10px;
+    width: 80px;
+    height: 40px;
+}
+
+label {
+    font-size: 2em;
+    color: #98EECC;
+}
+
+.picker,
+.penSize {
+    text-align: center;
+    margin: 15px 0;
+}
+
+#size {
+    accent-color:#F8FDCF;
+}
+
+span {
+    font-size: 0.8em;
+    color: #D0F5BE;
+}
+
+canvas {
+    background: #000;
+    border: 15px solid #E7CEA6;
+    border-radius: 5px;
+}
+
+canvas:hover {
+    cursor: url('./pen.png'), auto;
+}
+
+.canvasContainer {
+    display: flex;
+    justify-content: center;
+}
