@@ -1,0 +1,29 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #001524;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: #FDE5D4;
+    margin: 25px 0;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #D6CC99;
+    margin: 20px;
+}
+
+p {
+    color: #FFB000;
+    cursor: pointer;
+    margin: 100px;
+}
