@@ -1,0 +1,65 @@
+html {
+    box-sizing: border-box;
+    background: linear-gradient(to right top, #d63484, #de4b93, #e65fa2, #ee72b1, #f584bf, #fb92bb, #fea1bb, #ffb0bd, #ffc2bb, #fcd4c4, #f8e5d5, #f8f4ec) no-repeat fixed center;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 200;
+  }
+
+  body {
+    margin: 50px auto;
+    width: 70%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 50px;
+    
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  h1 {
+    margin-top: 0;
+  }
+
+  .site-wrap {
+    max-width: 700px;
+    margin: 100px auto;
+    background: #FFF;
+    padding: 40px;
+    text-align: justify;
+  }
+
+  .align-left {
+    float: left;
+    margin-right: 20px;
+  }
+
+  .align-right {
+    float: right;
+    margin-left: 20px;
+  }
+
+  .slide-in {
+    opacity: 0;
+    transition: all .5s;
+  }
+
+  .align-left.slide-in {
+    transform: translateX(-30%) scale(0.95);
+  }
+
+  .align-right.slide-in {
+    transform: translateX(30%) scale(0.95);
+  }
+
+  .slide-in.active {
+    opacity: 1;
+    transform: translateX(0%) scale(1);
+  }
