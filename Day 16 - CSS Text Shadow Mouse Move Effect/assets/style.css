@@ -1,0 +1,33 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0F1035;
+    font-family: 'Comic Sans MS', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: #DCF2F1;
+    margin: 25px 0;
+    font-size: 2.5em;
+}
+
+p {
+    font-size: 10em;
+    font-weight: 700;
+    color: #FE7A36;
+    text-shadow: 10px 5px 5px #E9F6FF;
+}
+
+.hero {
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
