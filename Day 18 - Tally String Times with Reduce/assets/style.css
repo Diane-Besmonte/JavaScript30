@@ -1,0 +1,23 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #2D3250;
+    font-family: 'Comic Sans MS', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: #F6B17A;
+    margin: 25px 0;
+    font-size: 2.5em;
+}
+
+li {
+    color: #F5E8C7;
+    font-size: 1.2em;
+}
