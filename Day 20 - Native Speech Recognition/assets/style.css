@@ -1,0 +1,33 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0F1035;
+    font-family: 'Comic Sans MS', sans-serif;
+    text-align: center;
+}
+
+
+h1 {
+    text-align: center;
+    color: #DCF2F1;
+    margin: 25px 0;
+    font-size: 2.5em;
+}
+
+.words {
+    max-width: 60%;
+    margin: 50px auto;
+    background: #F0EDCF;
+    border-radius: 5px;
+    box-shadow: 10px 10px 0 rgba(0,0,0,0.1);
+    padding: 1rem 2rem 1rem 4rem;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#d9eaf3), color-stop(4%, #fff)) 0 4px;
+    background-size: 100% 3rem;
+    position: relative;
+    line-height: 3rem;
+    font-size: 2em;
+}
